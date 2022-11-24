@@ -24049,3 +24049,32 @@ While running pretext, the following errors occured:
 [31merror: [0mDeploy was unsuccessful.
 ----------------------------------------------------
 ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `gj026621.github.io`...
+
+[33mwarning: [0mThere was an issue connecting to GitHub repository located at (unable to find GitHub URL from gj026621.github.io)
+
+If you haven't already, configure SSH with GitHub by following instructions at:
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+Then try to deploy again.
+
+If `gj026621.github.io` doesn't match your GitHub repository,
+use `git remote remove origin` on the command line then try to deploy again.
+
+[31merror: [0mDeploy was unsuccessful.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mDeploy was unsuccessful.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ git remote remove 
