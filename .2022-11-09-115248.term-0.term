@@ -23972,4 +23972,40 @@ Use [Ctrl]+[C] to halt the server.
 ^C
 Closing server...
 
-]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext view web[1@build[C[C[C[C[1Pview[C[C[C[C[1@build[C[C[C[C[1Pview[C[C[C[Cbuild -gview webbuild -gview webbuild -gview webbuild -g
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext view web[1@build[C[C[C[C[1Pview[C[C[C[C[1@build[C[C[C[C[1Pview[C[C[C[Cbuild -gview webbuild -gview webbuild -gview webbuild -g[1P-gview web[1@build[C[C[C[C[K[K[K[K[K[K[K[K[Kdeploy
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Initializing project with Git.
+Successfully initialized new Git repository!
+
+Preparing to deploy from active `main` git branch.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+[33mwarning: [0mRemote GitHub repository is not yet configured.
+
+And if you haven't already, create a remote GitHub repository for this project at:
+    https://github.com/new
+(Do NOT check any "initialize" options.)
+On the next page, copy the URL in the "Quick Setup" section (use HTTPS unless you have SSH setup already).
+
+Paste url here: ^C
+Aborted!
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext --version
+1.0.4
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext --version[3Pdeploy
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
