@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="fr-FR" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <xi:include href="./meta_docinfo.ptx" />
+
+  <book xml:id="nya">
+    <title>Calcul différentiel</title>
+    <subtitle>Notes de cours de l'hiver 2023</subtitle>
+
+    <xi:include href="./meta_frontmatter.ptx" />
+
+    <xi:include href="./semaine_1.ptx" />
+
+  </book>
+</pretext>

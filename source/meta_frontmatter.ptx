@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="meta_frontmatter">
+  <title>Introduction</title>
+  <titlepage>
+    <author>
+      <personname>Julien Giol</personname>
+      <department>Département de mathématiques</department>
+      <institution>Collège Ahuntsic</institution>
+    </author>
+    <date><today/></date>
+  </titlepage>
+
+  <colophon>
+    <title>Droits d'auteur</title>
+
+    <website>
+      <name><c>my-website.org</c></name>
+      <address>http://pretextbook.org</address>
+    </website>
+
+    <copyright>
+      <!-- In addition to specifying the copyright holder, you should  -->
+      <!-- include a license, such as the cc-by-sa license shown below -->
+      <!-- so people reading your book know how they can use it.       -->
+      <year>2023</year>
+      <holder>Julien Giol</holder>
+      <!-- <minilicense><image source="../images/by-sa.png" /></minilicense> -->
+      <shortlicense>
+        <!-- <image source="../images/by-sa.png" width="15%"/>  -->
+        Ces pages sont mises gratuitement à la disposition de toutes et tous, selon les termes décrits à l'adresse suivante :
+        <url 
+          href="https://creativecommons.org/licenses/by-sa/2.0/fr/"
+          visual="creativecommons.org/licenses/by-sa/2.0/fr/">
+          CreativeCommons.org</url>.
+      </shortlicense>
+    </copyright>
+
+  </colophon>
+
+  <preface xml:id="meta_frontmatter-conseils">
+    <title>Conseils d'utilisation</title>
+    <p>
+      Bonne étude!
+    </p>
+  </preface>
+
+  <preface xml:id="meta_frontmatter-calculatrices">
+    <title>Calculatrices SageMath</title>
+    <p>
+      Les voici!
+    </p>
+  </preface>
+
+</frontmatter>
+

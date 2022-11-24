@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="semaine_1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Limites (début)</title>
+  <introduction>
+    <objectives>
+      <p>Try adding your own content here!</p>
+    </objectives>
+  </introduction>
+
+  <section>
+    <title>Fonctions : rappels</title>
+
+    <fact>
+      <p><fillin characters="20"/> <m>f(x)=x+3</m> en <m>x=2</m>, c'est remplacer <m>x</m> par <m>2</m> dans la <fillin characters="20"/> qui définit cette fonction.</p>
+      <p>
+        Cela donne
+        <me>f(\;\;)=</me>
+        et ça signifie que le point <fillin/> appartient à la représentation graphique de <m>f</m>.
+      </p>
+    </fact>
+
+    <example>
+      <p>
+        Évaluez la fonction
+        <me>g(x)=\frac{2x+9}{x+3}</me>
+        aux abscisses indiquées ci-après
+        <me>-9\quad -6\quad -4{,}5\quad -3{,}5\quad -2{,}5\quad 0\quad 3</me>
+        puis placez les points correspondants dans le graphique suivant :
+      </p>
+      <figure>
+        <image width="75%">
+        <latex-image>
+          <xi:include href="images/tikz_grille_10par10.tex" parse="text"/>
+        </latex-image>
+        </image>
+      </figure>
+    </example>
+
+    <fact>
+      <p>Le <fillin characters="20"/> de la fonction <m>f</m>, c'est l'ensemble des <m>x</m> pour lesquels <fillin/> existe.</p>
+      <p>Ses zéros, ce sont les <m>x</m> solutions de l'équation <fillin characters="20"/>.</p>
+      <p>Son ordonnée à l'origine, c'est <fillin/>.</p>
+    </fact>
+
+    <example>
+      <p>
+        Déterminez le domaine, les zéros et l'ordonnée à l'origine de la fonction
+        <me>g(x)=\frac{2x+9}{x+3}.</me>
+      </p>
+    </example>
+
+  </section>
+
+  <section>
+    <title>Limites : approche numérique et graphique</title>
+  </section>
+
+  <example>
+  </example>
+
+  <section>
+    <title>Limites : évaluation et arithmétique de l'infini</title>
+  </section>
+
+  <section>
+    <title>Devoirs</title>
+
+    <p>Exercices à faire :</p>
+  </section>
+
+</chapter>
