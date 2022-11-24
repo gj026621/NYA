@@ -24009,3 +24009,43 @@ While running pretext, the following errors occured:
 [31merror: [0m`pretext deploy -u` to have these changes updated automatically.
 ----------------------------------------------------
 ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+[33mwarning: [0mRemote GitHub repository is not yet configured.
+
+And if you haven't already, create a remote GitHub repository for this project at:
+    https://github.com/new
+(Do NOT check any "initialize" options.)
+On the next page, copy the URL in the "Quick Setup" section (use HTTPS unless you have SSH setup already).
+
+Paste url here: gj026621.github.io
+
+For information about authentication options for github, see: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `gj026621.github.io`...
+
+[33mwarning: [0mThere was an issue connecting to GitHub repository located at (unable to find GitHub URL from gj026621.github.io)
+
+If you haven't already, configure SSH with GitHub by following instructions at:
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+Then try to deploy again.
+
+If `gj026621.github.io` doesn't match your GitHub repository,
+use `git remote remove origin` on the command line then try to deploy again.
+
+[31merror: [0mDeploy was unsuccessful.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mDeploy was unsuccessful.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
