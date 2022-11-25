@@ -24474,3 +24474,157 @@ While running pretext, the following errors occured:
 [31merror: [0mDeploy was unsuccessful.
 ----------------------------------------------------
 ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ s[Kpretext deploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `https://github.com/gj026621/NYA`...
+
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+[33mwarning: [0mThere was an issue connecting to GitHub repository located at https://github.com/github.com/gj026621/
+
+If you haven't already, configure SSH with GitHub by following instructions at:
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+Then try to deploy again.
+
+If `https://github.com/gj026621/NYA` doesn't match your GitHub repository,
+use `git remote remove origin` on the command line then try to deploy again.
+
+[31merror: [0mDeploy was unsuccessful.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mDeploy was unsuccessful.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-add -s pkcs11 ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@-apple-use-keychain[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Peval "$(ssh-agent -s)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls -al ~/.ssh
+total 18
+drwxr-xr-x  2 user user   6 Nov 25 12:31 [0m[01;34m.[0m
+drwxr-xr-x 23 user user  40 Nov 25 12:27 [01;34m..[0m
+-r--r--r--  1 user user 322 Nov 25 12:27 authorized_keys
+-rw-r--r--  1 user user  71 Nov 25 12:33 config
+-rw-------  1 user user 411 Nov 25 12:29 id_ed25519
+-rw-r--r--  1 user user 100 Nov 25 12:29 id_ed25519.pub
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ls -al ~/.ssh[C[C[C[C[C[1P ~/.ssh[1P ~/.ssh[1P ~/.ssh[1P~/.ssh[1P ~/.ssh[1P ~/.sshc ~/.sshd ~/.ssh
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys  config  id_ed25519  id_ed25519.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ rm config id_ed25519  id_ed25519.pub
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+authorized_keys
+]0;~/.ssh[01;34m~/.ssh[00m$ rmdir [K[K[K[K authorized_keys
+rm: remove write-protected regular file 'authorized_keys'? yes
+]0;~/.ssh[01;34m~/.ssh[00m$ ls
+]0;~/.ssh[01;34m~/.ssh[00m$ cd
+]0;~[01;34m~[00m$ cd `[K~/PreTeXt [K/NYA
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ cd ~/PreTeXt/NYA[Klsrm authorized_keys[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm config id_ed25519  id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ~/.ssh[4@ls -al[C[C[C[C[C[C[C
+total 13
+drwxr-xr-x  2 user user  2 Nov 25 13:54 [0m[01;34m.[0m
+drwxr-xr-x 23 user user 40 Nov 25 12:27 [01;34m..[0m
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ls -al ~/.ssh[Kp^re[K[K[Kretext --version
+1.0.4
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ [K]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ls -al ~/.ssh
+total 14
+drwxr-xr-x  2 user user   3 Nov 25 18:12 [0m[01;34m.[0m
+drwxr-xr-x 23 user user  40 Nov 25 18:12 [01;34m..[0m
+-r--r--r--  1 user user 322 Nov 25 18:12 authorized_keys
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-keygen -t ed25519 -C "your_email@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"[1P@example.com"g@example.com"j@example.com"0@example.com"2@example.com"6@example.com"6@example.com"2@example.com"1@example.com"[C[C[C[C[C[C[C[C[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"g.com"m.com"a.com"i.com"l.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_ed25519
+Your public key has been saved in /home/user/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:3jeaOiYdMeyMP3HJa7HaLQ+kwSIZ+EB1yUBZdaEWuu8 gj026621@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|  .o+=ooo o.     |
+| . ...o. +       |
+|  o . ..o        |
+|   o o ++        |
+|    + o+S+..     |
+|     ..+===      |
+|       o++o+o    |
+|      ..*.=* .   |
+|       oE*+oo    |
++----[SHA256]-----+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ eval "$(ssh-agent -s)"
+Agent pid 505
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ~/.ssh/config
+bash: /home/user/.ssh/config: No such file or directory
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ touch ~/.ssh/config
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ touch ~/.ssh/config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P~/.ssh/configeval "$(ssh-agent -s)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P~/.ssh/configo~/.ssh/configp~/.ssh/confige~/.ssh/confign~/.ssh/config ~/.ssh/config
+]49;{"event":"open","paths":[{"file":".ssh/config"}]}
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ open ~/.ssh/config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@touch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P~/.ssh/configeval "$(ssh-agent -s)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t ed25519 -C "gj026621@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -al ~/.ssh[K
+total 18
+drwxr-xr-x  2 user user   6 Nov 25 18:15 [0m[01;34m.[0m
+drwxr-xr-x 23 user user  40 Nov 25 18:12 [01;34m..[0m
+-r--r--r--  1 user user 322 Nov 25 18:12 authorized_keys
+-rw-r--r--  1 user user  89 Nov 25 18:15 config
+-rw-------  1 user user 464 Nov 25 18:14 id_ed25519
+-rw-r--r--  1 user user 100 Nov 25 18:14 id_ed25519.pub
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+unknown option -- -
+usage: ssh-add [-cDdKkLlqvXx] [-E fingerprint_hash] [-S provider] [-t life]
+               [file ...]
+       ssh-add -s pkcs11
+       ssh-add -e pkcs11
+       ssh-add -T pubkey ...
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh-add --apple-use-keychain ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519s ~/.ssh/id_ed25519[C ~/.ssh/id_ed25519p ~/.ssh/id_ed25519k ~/.ssh/id_ed25519c ~/.ssh/id_ed25519s ~/.ssh/id_ed255191 ~/.ssh/id_ed255191 ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter passphrase for PKCS#11: 
+Could not add card "pkcs11": agent refused operation
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add -s pkcs11 ~/.ssh/id_ed25519[1P[1@T[C[C[C[C[C[C[C[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519[1P ~/.ssh/id_ed25519u ~/.ssh/id_ed25519b ~/.ssh/id_ed25519k ~/.ssh/id_ed25519e ~/.ssh/id_ed25519y ~/.ssh/id_ed25519
+Couldn't read public key pubkey: No such file or directory
+Agent signature failed for /home/user/.ssh/id_ed25519: agent refused operation
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add -T pubkey ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pkcs11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@-apple-use-keychain[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Ps pkcs11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@e
+Could not remove card "pkcs11": agent refused operation
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add -e pkcs11 ~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519[1P~/.ssh/id_ed25519
+Enter passphrase for /home/user/.ssh/id_ed25519: 
+Identity added: /home/user/.ssh/id_ed25519 (gj026621@gmail.com)
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pbcopy < ~/.ssh/id_ed25519.pub
+bash: pbcopy: command not found
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pbcopy < ~/.ssh/id_ed25519.pub[1P~/.ssh/id_ed25519.pub[1P~/.ssh/id_ed25519.pub[1P~/.ssh/id_ed25519.pub[1P~/.ssh/id_ed25519.pub[1P~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ~/.ssh/id_ed25519.pub
+]49;{"event":"open","paths":[{"file":".ssh/id_ed25519.pub"}]}
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh -T git@github.com
+/home/user/.ssh/config: line 3: Bad configuration option: usekeychain
+/home/user/.ssh/config: terminating, 1 bad configuration options
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh -T git@github.com
+/home/user/.ssh/config: line 3: Bad configuration option: usekeychain
+/home/user/.ssh/config: terminating, 1 bad configuration options
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.114.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.114.3' (ECDSA) to the list of known hosts.
+Hi gj026621! You've successfully authenticated, but GitHub does not provide shell access.
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh -T git@github.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Copen ~/.ssh/id_ed25519.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@pbcopy <[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pssh-add ~/.ssh/id_ed25519-e pkcs11 ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CT pubkey[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pkcs11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@-apple-use-keychain[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -al ~/.ssh[Kopen ~/.ssh/config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@touch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P~/.ssh/configeval "$(ssh-agent -s)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t ed25519 -C "gj026621@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -al ~/.ssh[Kpretext --version[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -al ~/.sshcd ~/PreTeXt/NYA[K ~/PreTeXt/NYA[3Pls -al ~/.sshpretext --version[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -al ~/.sshpretext --version[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -al ~/.sshcd ~/PreTeXt/NYA[Klsrm authorized_keys[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm authorized_keys[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ~/PreTeXt/NYA[3Pls -al ~/.sshpretext --version[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -al ~/.sshpretext --version
+Static pretext files are out of date.  Installing them now.
+Static files required for pretext have now been installed to /home/user/.ptx
+1.0.5
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext --version[K[K[K[K[K[K[K[Kdeplo[K[K[K[K[K[Kdeploy
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+[33mwarning: [0mUsing CLI version 1.0.5 but project's `requirements.txt`
+[33mwarning: [0mis configured to use 1.0.4. Consider either installing
+[33mwarning: [0mCLI version 1.0.4 or changing `requirements.txt` to match 1.0.5.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy
