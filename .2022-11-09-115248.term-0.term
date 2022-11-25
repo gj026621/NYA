@@ -24411,4 +24411,35 @@ Could not remove card "pkcs11": agent refused operation
 ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add -e pkcs11 ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 Enter passphrase for PKCS#11: 
 Could not add card "pkcs11": agent refused operation
-]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add -s pkcs11 ~/.ssh/id_ed25519
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ssh-add -s pkcs11 ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@-apple-use-keychain[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Peval "$(ssh-agent -s)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pls -al ~/.sshssh-add -s pkcs11 ~/.ssh/id_ed25519[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@-apple-use-keychain[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Popen ~/.ssh/config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ceval "$(ssh-agent -s)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t ed25519 -C "gj026621@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -al ~/.ssh[Kpretext deploy -u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote remove origin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Ppretext deploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `https://github.com/gj026621/NYA`...
+
+Username for 'https://github.com': ^[[A^[[A^[[A            gh026621       j026621
+Password for 'https://gj026621@github.com': 
+[33mwarning: [0mThere was an issue connecting to GitHub repository located at https://github.com/github.com/gj026621/
+
+If you haven't already, configure SSH with GitHub by following instructions at:
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+Then try to deploy again.
+
+If `https://github.com/gj026621/NYA` doesn't match your GitHub repository,
+use `git remote remove origin` on the command line then try to deploy again.
+
+[31merror: [0mDeploy was unsuccessful.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mDeploy was unsuccessful.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
