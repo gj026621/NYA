@@ -24799,4 +24799,18 @@ While running pretext, the following errors occured:
 [31merror: [0mEither add and commit these changes with Git, or run
 [31merror: [0m`pretext deploy -u` to have these changes updated automatically.
 ----------------------------------------------------
-]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `https://github.com/gj026621/NYA`...
+
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
