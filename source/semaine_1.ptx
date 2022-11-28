@@ -9,7 +9,7 @@
   </introduction>
 
   <section>
-    <title>Fonctions : rappels</title>
+    <title>Fonctions : rappels et test</title>
 
     <fact>
       <p><fillin characters="20"/> <m>f(x)=x+3</m> en <m>x=2</m>, c'est remplacer <m>x</m> par <m>2</m> dans la <fillin characters="20"/> qui définit cette fonction.</p>

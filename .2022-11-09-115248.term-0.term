@@ -24672,4 +24672,131 @@ While running pretext, the following errors occured:
 
 [31merror: [0mDeploy was unsuccessful.
 ----------------------------------------------------
-]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u[K--version
+1.0.5
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext --versiondeploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `https://github.com/gj026621/NYA`...
+
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+[33mwarning: [0mThere was an issue connecting to GitHub repository located at https://github.com/github.com/gj026621/
+
+If you haven't already, configure SSH with GitHub by following instructions at:
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+Then try to deploy again.
+
+If `https://github.com/gj026621/NYA` doesn't match your GitHub repository,
+use `git remote remove origin` on the command line then try to deploy again.
+
+[31merror: [0mDeploy was unsuccessful.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mDeploy was unsuccessful.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ [K]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ git remote -v
+origin	https://github.com/gj026621/NYA (fetch)
+origin	https://github.com/gj026621/NYA (push)
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .2022-11-09-115248.term-0.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext build web
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+[33mwarning: [0mAssets like latex-images will not be regenerated for this build
+[33mwarning: [0m(previously generated assets will be used if they exist).
+[33mwarning: [0mTo generate these assets before building, run `pretext build -g`.
+Preparing to build into /home/user/PreTeXt/NYA/output/web.
+
+Now building HTML into /home/user/PreTeXt/NYA/output/web
+
+discovering source file's directory name: /home/user/PreTeXt/NYA/source
+verifying and expanding input directory: /home/user/PreTeXt/NYA/source/../generated-assets
+input directory expanded to absolute path: /home/user/PreTeXt/NYA/generated-assets
+verifying and expanding input directory: /home/user/PreTeXt/NYA/source/../assets
+input directory expanded to absolute path: /home/user/PreTeXt/NYA/assets
+Runestone Services (via PreTeXt repository): version 6.3.16
+Runestone Services (using newer, via online CDN query): version 6.3.24
+converting /home/user/PreTeXt/NYA/source/main.ptx to HTML in /tmp/tmpnrtg536o
+XSL conversion of /home/user/PreTeXt/NYA/source/main.ptx by /home/user/.ptx/xsl/pretext-html.xsl
+comprehensive messages, warnings, and errors:
+successful application of /home/user/.ptx/xsl/pretext-html.xsl
+
+Success! Run `pretext view web` to see the results.
+
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .2022-11-09-115248.term-0.term[m
+	[31mmodified:   source/semaine_1.ptx[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ git psuh[K[K[Kush
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ git push --set-upstream origin main
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/gj026621/NYA/'
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pytest test_plates.py[5Phon plates.pyest test_bank.py[5Phon bank.pyest test_twttr.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pip install pytestytest test_twttr.py[6Phon bank.pyest test_bank.py[3Phon plates.pyest test_plates.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push --set-upstream origin main
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/gj026621/NYA/'
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ git push --set-upstream origin main
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+Enumerating objects: 70, done.
+Counting objects:   1% (1/70)Counting objects:   2% (2/70)Counting objects:   4% (3/70)Counting objects:   5% (4/70)Counting objects:   7% (5/70)Counting objects:   8% (6/70)Counting objects:  10% (7/70)Counting objects:  11% (8/70)Counting objects:  12% (9/70)Counting objects:  14% (10/70)Counting objects:  15% (11/70)Counting objects:  17% (12/70)Counting objects:  18% (13/70)Counting objects:  20% (14/70)Counting objects:  21% (15/70)Counting objects:  22% (16/70)Counting objects:  24% (17/70)Counting objects:  25% (18/70)Counting objects:  27% (19/70)Counting objects:  28% (20/70)Counting objects:  30% (21/70)Counting objects:  31% (22/70)Counting objects:  32% (23/70)Counting objects:  34% (24/70)Counting objects:  35% (25/70)Counting objects:  37% (26/70)Counting objects:  38% (27/70)Counting objects:  40% (28/70)Counting objects:  41% (29/70)Counting objects:  42% (30/70)Counting objects:  44% (31/70)Counting objects:  45% (32/70)Counting objects:  47% (33/70)Counting objects:  48% (34/70)Counting objects:  50% (35/70)Counting objects:  51% (36/70)Counting objects:  52% (37/70)Counting objects:  54% (38/70)Counting objects:  55% (39/70)Counting objects:  57% (40/70)Counting objects:  58% (41/70)Counting objects:  60% (42/70)Counting objects:  61% (43/70)Counting objects:  62% (44/70)Counting objects:  64% (45/70)Counting objects:  65% (46/70)Counting objects:  67% (47/70)Counting objects:  68% (48/70)Counting objects:  70% (49/70)Counting objects:  71% (50/70)Counting objects:  72% (51/70)Counting objects:  74% (52/70)Counting objects:  75% (53/70)Counting objects:  77% (54/70)Counting objects:  78% (55/70)Counting objects:  80% (56/70)Counting objects:  81% (57/70)Counting objects:  82% (58/70)Counting objects:  84% (59/70)Counting objects:  85% (60/70)Counting objects:  87% (61/70)Counting objects:  88% (62/70)Counting objects:  90% (63/70)Counting objects:  91% (64/70)Counting objects:  92% (65/70)Counting objects:  94% (66/70)Counting objects:  95% (67/70)Counting objects:  97% (68/70)Counting objects:  98% (69/70)Counting objects: 100% (70/70)Counting objects: 100% (70/70), done.
+Delta compression using up to 4 threads
+Compressing objects:   1% (1/64)Compressing objects:   3% (2/64)Compressing objects:   4% (3/64)Compressing objects:   6% (4/64)Compressing objects:   7% (5/64)Compressing objects:   9% (6/64)Compressing objects:  10% (7/64)Compressing objects:  12% (8/64)Compressing objects:  14% (9/64)Compressing objects:  15% (10/64)Compressing objects:  17% (11/64)Compressing objects:  18% (12/64)Compressing objects:  20% (13/64)Compressing objects:  21% (14/64)Compressing objects:  23% (15/64)Compressing objects:  25% (16/64)Compressing objects:  26% (17/64)Compressing objects:  28% (18/64)Compressing objects:  29% (19/64)Compressing objects:  31% (20/64)Compressing objects:  32% (21/64)Compressing objects:  34% (22/64)Compressing objects:  35% (23/64)Compressing objects:  37% (24/64)Compressing objects:  39% (25/64)Compressing objects:  40% (26/64)Compressing objects:  42% (27/64)Compressing objects:  43% (28/64)Compressing objects:  45% (29/64)Compressing objects:  46% (30/64)Compressing objects:  48% (31/64)Compressing objects:  50% (32/64)Compressing objects:  51% (33/64)Compressing objects:  53% (34/64)Compressing objects:  54% (35/64)Compressing objects:  56% (36/64)Compressing objects:  57% (37/64)Compressing objects:  59% (38/64)Compressing objects:  60% (39/64)Compressing objects:  62% (40/64)Compressing objects:  64% (41/64)Compressing objects:  65% (42/64)Compressing objects:  67% (43/64)Compressing objects:  68% (44/64)Compressing objects:  70% (45/64)Compressing objects:  71% (46/64)Compressing objects:  73% (47/64)Compressing objects:  75% (48/64)Compressing objects:  76% (49/64)Compressing objects:  78% (50/64)Compressing objects:  79% (51/64)Compressing objects:  81% (52/64)Compressing objects:  82% (53/64)Compressing objects:  84% (54/64)Compressing objects:  85% (55/64)Compressing objects:  87% (56/64)Compressing objects:  89% (57/64)Compressing objects:  90% (58/64)Compressing objects:  92% (59/64)Compressing objects:  93% (60/64)Compressing objects:  95% (61/64)Compressing objects:  96% (62/64)Compressing objects:  98% (63/64)Compressing objects: 100% (64/64)Compressing objects: 100% (64/64), done.
+Writing objects:   1% (1/70)Writing objects:   2% (2/70)Writing objects:   4% (3/70)Writing objects:   5% (4/70)Writing objects:   7% (5/70)Writing objects:   8% (6/70)Writing objects:  10% (7/70)Writing objects:  11% (8/70)Writing objects:  12% (9/70)Writing objects:  14% (10/70)Writing objects:  15% (11/70)Writing objects:  17% (12/70)Writing objects:  18% (13/70)Writing objects:  20% (14/70)Writing objects:  21% (15/70)Writing objects:  22% (16/70)Writing objects:  24% (17/70)Writing objects:  25% (18/70)Writing objects:  27% (19/70)Writing objects:  28% (20/70)Writing objects:  30% (21/70)Writing objects:  31% (22/70)Writing objects:  32% (23/70)Writing objects:  34% (24/70)Writing objects:  35% (25/70)Writing objects:  37% (26/70)Writing objects:  38% (27/70)Writing objects:  40% (28/70)Writing objects:  41% (29/70)Writing objects:  42% (30/70)Writing objects:  45% (32/70)Writing objects:  47% (33/70)Writing objects:  48% (34/70)Writing objects:  50% (35/70)Writing objects:  51% (36/70)Writing objects:  52% (37/70)Writing objects:  54% (38/70)Writing objects:  55% (39/70)Writing objects:  57% (40/70)Writing objects:  58% (41/70)Writing objects:  60% (42/70)Writing objects:  61% (43/70)Writing objects:  62% (44/70)Writing objects:  64% (45/70)Writing objects:  65% (46/70)Writing objects:  67% (47/70)Writing objects:  68% (48/70)Writing objects:  70% (49/70)Writing objects:  71% (50/70)Writing objects:  72% (51/70)Writing objects:  74% (52/70)Writing objects:  75% (53/70)Writing objects:  77% (54/70)Writing objects:  78% (55/70)Writing objects:  80% (56/70)Writing objects:  81% (57/70)Writing objects:  82% (58/70)Writing objects:  84% (59/70)Writing objects:  85% (60/70)Writing objects:  87% (61/70)Writing objects:  88% (62/70)Writing objects:  90% (63/70)Writing objects:  91% (64/70)Writing objects:  92% (65/70)Writing objects:  94% (66/70)Writing objects:  95% (67/70)Writing objects:  97% (68/70)Writing objects:  98% (69/70)Writing objects: 100% (70/70)Writing objects: 100% (70/70), 228.90 KiB | 8.48 MiB/s, done.
+Total 70 (delta 27), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/27)[Kremote: Resolving deltas:   3% (1/27)[Kremote: Resolving deltas:   7% (2/27)[Kremote: Resolving deltas:  11% (3/27)[Kremote: Resolving deltas:  14% (4/27)[Kremote: Resolving deltas:  18% (5/27)[Kremote: Resolving deltas:  22% (6/27)[Kremote: Resolving deltas:  25% (7/27)[Kremote: Resolving deltas:  29% (8/27)[Kremote: Resolving deltas:  33% (9/27)[Kremote: Resolving deltas:  37% (10/27)[Kremote: Resolving deltas:  40% (11/27)[Kremote: Resolving deltas:  44% (12/27)[Kremote: Resolving deltas:  48% (13/27)[Kremote: Resolving deltas:  51% (14/27)[Kremote: Resolving deltas:  55% (15/27)[Kremote: Resolving deltas:  59% (16/27)[Kremote: Resolving deltas:  62% (17/27)[Kremote: Resolving deltas:  66% (18/27)[Kremote: Resolving deltas:  70% (19/27)[Kremote: Resolving deltas:  74% (20/27)[Kremote: Resolving deltas:  77% (21/27)[Kremote: Resolving deltas:  81% (22/27)[Kremote: Resolving deltas:  85% (23/27)[Kremote: Resolving deltas:  88% (24/27)[Kremote: Resolving deltas:  92% (25/27)[Kremote: Resolving deltas:  96% (26/27)[Kremote: Resolving deltas: 100% (27/27)[Kremote: Resolving deltas: 100% (27/27), done.[K
+remote: 
+remote: Create a pull request for 'main' on GitHub by visiting:[K
+remote:      https://github.com/gj026621/NYA/pull/new/main[K
+remote: 
+To https://github.com/gj026621/NYA
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy
