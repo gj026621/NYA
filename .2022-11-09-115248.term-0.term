@@ -24814,3 +24814,82 @@ Attempting to connect to remote repository at `https://github.com/gj026621/NYA`.
 
 Username for 'https://github.com': gj026621
 Password for 'https://gj026621@github.com': 
+[33mwarning: [0mThere was an issue connecting to GitHub repository located at https://github.com/github.com/gj026621/
+
+If you haven't already, configure SSH with GitHub by following instructions at:
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+Then try to deploy again.
+
+If `https://github.com/gj026621/NYA` doesn't match your GitHub repository,
+use `git remote remove origin` on the command line then try to deploy again.
+
+[31merror: [0mDeploy was unsuccessful.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mDeploy was unsuccessful.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `https://github.com/gj026621/NYA`...
+
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+
+Latest build successfully pushed to GitHub!
+
+To enable GitHub Pages, visit
+    https://github.com/github.com/gj026621/settings/pages
+selecting the `gh-pages` branch with the `/ (root)` folder.
+
+Visit
+    https://github.com/github.com/gj026621/actions/
+to check on the status of your GitHub Pages deployment.
+
+Your built project will soon be available to the public at:
+    https://github.com.github.io/gj026621/
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext view web
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Now preparing local server to preview directory `/home/user/PreTeXt/NYA/output/web`.
+  (Reminder: use `pretext deploy` to deploy your built project to a public
+  GitHub Pages site that can be shared with readers who cannot access your
+  personal computer.)
+
+Success! The most recent build of your project can be viewed in a web browser at the following url:
+    https://cocalc.com/c372faf6-6106-4c15-866e-69928fb8a79e/server/8000/
+This page should open in a new tab automatically.
+Use [Ctrl]+[C] to halt the server.
+
+192.168.160.80 - - [28/Nov/2022 21:30:38] "GET / HTTP/1.1" 200 -
+192.168.160.80 - - [28/Nov/2022 21:30:38] "GET /meta_frontmatter.html HTTP/1.1" 200 -
+^C
+Closing server...
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext view webdeploy -u[K[K[K
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy
