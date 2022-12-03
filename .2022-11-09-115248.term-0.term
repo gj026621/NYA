@@ -24923,4 +24923,75 @@ While running pretext, the following errors occured:
 
 [31merror: [0mDeploy was unsuccessful.
 ----------------------------------------------------
-]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u[Kview webdeploy -u[Kgit push --set-upstream origin main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Ppretext deploy
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy -u[Kview webdeploy -u[Kgit push --set-upstream origin main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Ppretext deploygit push --set-upstream origin main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Ppretext deploy -u
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+Add/committing these changes to local Git repository.
+
+Using latest build located in `/home/user/PreTeXt/NYA/output/web`.
+
+Commiting your latest build to the `gh-pages` branch.
+
+Attempting to connect to remote repository at `https://github.com/gj026621/NYA`...
+
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+Username for 'https://github.com': gj026621
+Password for 'https://gj026621@github.com': 
+
+Latest build successfully pushed to GitHub!
+
+To enable GitHub Pages, visit
+    https://github.com/github.com/gj026621/settings/pages
+selecting the `gh-pages` branch with the `/ (root)` folder.
+
+Visit
+    https://github.com/github.com/gj026621/actions/
+to check on the status of your GitHub Pages deployment.
+
+Your built project will soon be available to the public at:
+    https://github.com.github.io/gj026621/
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ ]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext -version
+Usage: pretext [OPTIONS] COMMAND [ARGS]...
+Try 'pretext -h' for help.
+
+Error: Invalid value for '--verbosity' / '-v': Must be CRITICAL, ERROR, WARNING, INFO or DEBUG, not ersion
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext -v
+Error: Option '-v' requires an argument.
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext --version
+1.0.5
+
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ pretext deploy
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ g[Kpretext deploy--versionv[Kersionython shirt.py before2.jpg after2.JPG1.jpg after1.JPeG[1PGpng[6Psad[7Pasfd[C[C[C[C[C asd[K[Kcourgify.py before.csv test.csv2 3[Kbefore.csv test.csv2 3 4[K[K[Kpizza.py sicilian.csv[1Pregular.csv[3Ptest csv.csv[K[5P py.pylines.py hello.py[2Pfoo.pyhello.py[2Pfoo.pybar.py[3P.py[K.bar bar[K bar[Kcostumes.py costume1.gif costume2.gif[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstudents4.py[K3.py2.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pimport csvpython students.pyest test_fuel.py[5Phon fuel.pycheck50 cs50/problems/2022/python/tests/plates[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Ppytest test_plates.py[5Phon plates.pyretext deploy -u[Kview webdeploy -u[Kgit push --set-upstream origin main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ppytest test_plates.py[5Phon plates.pyest test_bank.py[5Phon bank.pyest test_twttr.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pip install pytestytest test_twttr.py[5Phon twttr.pyest test2_calculator.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Phon [C[C[C[C[C[C[C[C[C[C[C[C[C[C[6@est test2_[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phon test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbitcoin.py 2.546000324[K[K assd sd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas afs[Kpython bitcoin.py asf df[K[2P1[Kprofessor.py[5Pgame.pyadieu.py[1Pgame.pyprofessor.py[2Pbitcoin.py 1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpretext deploy
+PreTeXt project found in `/home/user/PreTeXt/NYA`.
+Preparing to deploy from active `main` git branch.
+
+Changes to project source since last commit detected.
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+
+----------------------------------------------------
+While running pretext, the following errors occured:
+
+[31merror: [0mEither add and commit these changes with Git, or run
+[31merror: [0m`pretext deploy -u` to have these changes updated automatically.
+----------------------------------------------------
+]0;~/PreTeXt/NYA[01;34m~/PreTeXt/NYA[00m$ 
